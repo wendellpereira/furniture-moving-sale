@@ -1,7 +1,7 @@
 const items = [
   {
     title: "Blue double bookcase",
-    price: 130,
+    price: 140,
     category: "storage",
     description: "A great two-column bookcase with fourteen open compartments.",
     photos: [1934, 1963]
