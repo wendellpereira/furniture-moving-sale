@@ -36,14 +36,14 @@ const items = [
   },
   {
     title: "Mustard lounge chair",
-    price: 60,
+    price: 50,
     category: "seating",
     description: "Low wood-framed armchair with a warm mustard upholstered cushion.",
     photos: [1944, 1945]
   },
   {
     title: "Little side-table",
-    price: 25,
+    price: 5,
     category: "tables",
     description: "That one you can put your coffee, tea, water, beer, etc.",
     photos: [1946]
