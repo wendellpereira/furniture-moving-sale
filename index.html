@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Furniture and home pieces available before a move to Nashville.">
+  <title>Moving Sale — Furniture & Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav aria-label="Main navigation">
+      <a href="#pieces">Pieces</a>
+      <a href="#pickup">Pickup</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">One home · thirteen good pieces · one big move</p>
+        <h1>Help these pieces find their <em>next place.</em></h1>
+        <p class="intro">We're moving to Nashville and selling a small collection of furniture and home essentials. Everything is available for local pickup.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#pieces">Browse the sale</a>
+          <a class="button text" href="#pickup">How pickup works <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/IMG_1934.webp" alt="Large charcoal double bookcase filled with books and personal objects">
+        <span class="image-note">The double bookcase — and more below</span>
+      </div>
+    </section>
+
+    <section class="inventory" id="pieces" aria-labelledby="pieces-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Available pieces</p>
+          <h2 id="pieces-title">Shop the move</h2>
+        </div>
+        <p class="count"><span id="item-count">10</span> pieces</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter listings">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="storage">Storage</button>
+        <button class="filter" data-filter="seating">Seating</button>
+        <button class="filter" data-filter="tables">Tables</button>
+        <button class="filter" data-filter="bedroom">Bedroom</button>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="pickup" id="pickup">
+      <div>
+        <p class="eyebrow">The practical details</p>
+        <h2>See something you’d like?</h2>
+      </div>
+      <ol>
+        <li><span>01</span><div><strong>Send a message</strong><p>Tell me which piece you’re interested in.</p></div></li>
+        <li><span>02</span><div><strong>Choose a pickup time</strong><p>We’ll coordinate a time that works before moving day.</p></div></li>
+        <li><span>03</span><div><strong>Bring the right vehicle</strong><p>Furniture is local pickup only. Please plan help for larger pieces.</p></div></li>
+      </ol>
+      <h3>We accept cash, venmo , and zelle .</h3>
+    </section>
+  </main>
+
+  <footer>
+    <p>Moving sale · Onward to Nashville</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <dialog id="gallery-dialog" aria-label="Photo gallery">
+    <button class="dialog-close" aria-label="Close photo gallery">×</button>
+    <button class="gallery-arrow previous" aria-label="Previous photo">←</button>
+    <figure>
+      <img id="dialog-image" alt="">
+      <figcaption><span id="dialog-title"></span><span id="dialog-index"></span></figcaption>
+    </figure>
+    <button class="gallery-arrow next" aria-label="Next photo">→</button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
