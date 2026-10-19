@@ -35,25 +35,11 @@ const items = [
     photos: [1951, 1952]
   },
   {
-    title: "Mustard lounge chair",
-    price: 50,
-    category: "seating",
-    description: "Low wood-framed armchair with a warm mustard upholstered cushion.",
-    photos: [1944, 1945]
-  },
-  {
     title: "Little side-table",
     price: 5,
     category: "tables",
     description: "That one you can put your coffee, tea, water, beer, etc.",
     photos: [1946]
-  },
-  {
-    title: "Mustard ottoman. Qtd.: 2",
-    price: 25,
-    category: "seating",
-    description: "For when your legs ask for that extra comfort.",
-    photos: [1940]
   },
   {
     title: "Pair of folding stools",
@@ -75,13 +61,6 @@ const items = [
     category: "bedroom",
     description: "Tall, leanable full-length mirror in a clean black frame.",
     photos: [1955, 1956]
-  },
-  {
-    title: "White ladder shelf",
-    price: 50,
-    category: "storage",
-    description: "Airy five-tier leaning shelf for books, plants, or office storage.",
-    photos: [1957, 1958, 1959]
   },
   {
     title: "Storage bed frame & headboard",
