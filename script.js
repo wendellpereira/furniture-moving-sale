@@ -1,7 +1,7 @@
 const items = [
   {
     title: "Blue double bookcase",
-    price: 140,
+    price: 90,
     category: "storage",
     description: "A great two-column bookcase with fourteen open compartments.",
     photos: [1934, 1963]
@@ -15,7 +15,7 @@ const items = [
   },
   {
     title: "Pair of folding stools",
-    price: 50,
+    price: 40,
     category: "seating",
     description: "Two white folding counter-height stools with bent-plywood seats.",
     photos: [1949, 1950]
@@ -29,14 +29,14 @@ const items = [
   },
   {
     title: "Storage bed frame & headboard",
-    price: 200,
+    price: 150,
     category: "bedroom",
     description: "Wood-look bed frame with an upholstered headboard, reading light, and two footboard drawers.",
     photos: [1960, 1961, 1962]
   },
   {
     title: "Pair of rustic industrial nightstands",
-    price: 50,
+    price: 30,
     category: "tables",
     description: "Two slim bedside tables, each with a wood-look drawer, black metal frame, mesh shelf, and lower storage shelf.",
     photos: [2022, 2023, 2024]
