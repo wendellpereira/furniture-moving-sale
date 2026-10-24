@@ -5,34 +5,6 @@ const items = [
     category: "storage",
     description: "A great two-column bookcase with fourteen open compartments.",
     photos: [1934, 1963]
-  }, 
-  {
-    title: "Charcoal double bookcase",
-    price: 100,
-    category: "storage",
-    description: "A substantial two-column bookcase with twelve open compartments.",
-    photos: [1937, 1938, 1939]
-  },
-  {
-    title: "Wood & mesh coffee table",
-    price: 75,
-    category: "tables",
-    description: "Wood-look top, slim black frame, and a handy mesh lower shelf.",
-    photos: [1941, 1942, 1943]
-  },
-  {
-    title: "Tall mesh shelf",
-    price: 50,
-    category: "storage",
-    description: "Compact vertical shelf with a wood-look top and three mesh tiers.",
-    photos: [1947, 1948]
-  },
-  {
-    title: "Industrial TV console",
-    price: 100,
-    category: "storage",
-    description: "Wide media console with a wood-look top and three mesh-door cabinets.",
-    photos: [1951, 1952]
   },
   {
     title: "Little side-table",
@@ -49,13 +21,6 @@ const items = [
     photos: [1949, 1950]
   },
   {
-    title: "Red patio bistro set",
-    price: 100,
-    category: "tables",
-    description: "Cheerful folding outdoor table with two matching chairs.",
-    photos: [1953, 1954]
-  },
-  {
     title: "Black-framed floor mirror",
     price: 30,
     category: "bedroom",
@@ -68,6 +33,13 @@ const items = [
     category: "bedroom",
     description: "Wood-look bed frame with an upholstered headboard, reading light, and two footboard drawers.",
     photos: [1960, 1961, 1962]
+  },
+  {
+    title: "Pair of rustic industrial nightstands",
+    price: 50,
+    category: "tables",
+    description: "Two slim bedside tables, each with a wood-look drawer, black metal frame, mesh shelf, and lower storage shelf.",
+    photos: [2022, 2023, 2024]
   }
 ];
 
